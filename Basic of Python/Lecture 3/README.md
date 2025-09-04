@@ -1,3 +1,3 @@
-Learn about the funcctions
-Learn about numpy and pandas library
-Loading a csv file
+## Learnt about the funcctions
+## Learnt about numpy and pandas library
+## Loading a csv file
