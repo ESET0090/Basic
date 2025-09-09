@@ -57,3 +57,21 @@ InstalledDate > '2024-06-30';
 
 select * from Customers1
 select * from SMR
+
+
+-- Assignment 2
+
+select * from employee_1 where salary = (select max(salary) from employee_1)
+
+select avg(EnergyConsumed) as AvgEnergyConsumed  from SMR;
+
+select * from SMR where EnergyConsumed = (select avg(EnergyConsumed) as AvgEnergyConsumed  from SMR);
+
+select max(EnergyConsumed) as max_energy_consumed  from SMR;
+
+select CustomerId, avg(EnergyConsumed) as AvgEnergyConsumed, max(EnergyConsumed) as MaxEnergyConsumed from SMR
+group by CustomerId;
+
+
+
+
